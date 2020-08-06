@@ -27,4 +27,9 @@ I don't think we'll need a panel for this. It makes more sense to have a video o
 https://dev.twitch.tv/docs/extensions/rig/
 
 Set up the Project by selecting it from the drop down,
-I had to install Node on the windows side of my machine because I'm developing
+I had to install Node on the windows side of my machine because I'm developing using WSL
+I can still change the code in the WSL env and continue to develop normally.
+
+The directions fail to mention that you have to run backend and front end and then look at the desired view in the `Extension Views` tab.
+
+To edit the code go into the html and add the script tags
